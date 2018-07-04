@@ -1,0 +1,13 @@
+node_modules
+*.js
+*.js.map
+*.logs*
+*.DS_Store
+_temp
+uploads
+downloads
+apidoc
+*.log
+.idea
+coverage
+.nyc_output
