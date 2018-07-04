@@ -1,0 +1,46 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/app.js",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "buildTs",
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "console": "internalConsole",
+            "sourceMaps": true,
+            "outFiles": []
+        },
+        {
+            "name": "Attach",
+            "type": "node",
+            "request": "attach",
+            "port": 5858,
+            "address": "localhost",
+            "restart": false,
+            "sourceMaps": true,
+            "outFiles": [],
+            "localRoot": "${workspaceFolder}",
+            "remoteRoot": null
+        },
+        {
+            "name": "Attach to Process",
+            "type": "node",
+            "request": "attach",
+            "processId": "${command:PickProcess}",
+            "port": 5858,
+            "sourceMaps": false,
+            "outFiles": []
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "collab_tool",
+    "version": "1.0.0",
+    "description": "collabration server",
+    "main": "app.js",
+    "author": {
+        "name": "Xoriant Solutions Pvt Ltd.",
+        "email": "xoriantsolutions.pvt.ltd@gmail.com"
+    },
+    "scripts": {
+        "postinstall": "npm link t-webapi",
+        "start": "forever start app.js",
+        "stop": "forever stop app.js",
+        "restart": "forever restart app.js",
+        "debug": "node --debug app.js",
+        "list": "forever list",
+        "makeDoc": "typedoc --out ./docs --name 'Service' --excludeExternals",
+        "lint": "tslint --project tsconfig.json --config tslint.json"
+    },
+    "dependencies": {
+        "json2csv": "~3.7.3",
+        "request": "~2.87.0",
+        "sendmail": "~1.1.1",
+        "socket.io": "~2.0.3",
+        "tslint": "~5.10.0",
+        "typedoc": "~0.11.1",
+        "typescript": "~2.8.1"
+    }
+}
