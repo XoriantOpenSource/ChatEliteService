@@ -36,24 +36,22 @@ One of the most important features that ChatElite holds, is its easy use. Here a
         * Open a Command Prompt (or Git Bash if during installation you elected not to use Git from the Windows Command Prompt).
         * Run the following commands to configure your Git username and email using the following commands. 
 
+        ```
+            $ git config --global user.name “user name”
+            $ git config --global user.email “email id”
+        ```
 
-```
-$ git config --global user.name “user name”
-$ git config --global user.email “email id”
-```
+    * **On Linux/Mac**: To install on a Linux or a Mac, follow [these](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) instructions.
 
+*	**Node**: Follow [these](https://nodejs.org/en/download/) instructions to download and install Node.js according to your operating system.
 
-*	**On Linux/Mac**: To install on a Linux or a Mac, follow [these](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) instructions.
+*	**Mongo**: Follow [these](https://docs.mongodb.com/manual/installation/#mongodb-community-edition) instructions to download and install Mongo DB according to your operating system and requirement.
 
-    *	**Node**: Follow [these](https://nodejs.org/en/download/) instructions to download and install Node.js according to your operating system.
-
-    *	**Mongo**: Follow [these](https://docs.mongodb.com/manual/installation/#mongodb-community-edition) instructions to download and install Mongo DB according to your operating system and requirement.
-
-    *	**Visual Studio Code**: It is recommended. However, you can use any other editor. Follow [these](https://code.visualstudio.com/download) instructions to install Visual Studio Code.
+*	**Visual Studio Code**: It is recommended. However, you can use any other editor. Follow [these](https://code.visualstudio.com/download) instructions to install Visual Studio Code.
 
 ## Getting Started
 
-* Follow the instructions from [**ChatEliteUi repository**](https://github.com/XoriantOpenSource/ChatEliteUi#execution-on-localhost) repository. 
+* Follow the instructions from [**ChatEliteUi repository**](https://github.com/XoriantOpenSource/ChatEliteUi#execution-on-localhost). 
 
 ##	System Design
 
