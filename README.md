@@ -26,12 +26,12 @@ One of the most important features that ChatElite holds, is its easy use. Here a
 *	For a group, a user can see all the group members’ information and remove any member if the group has been created by the user himself. 
 *	One can also view the shared links in the group chat and the favourite messages in that group chat. 
 
- 
+
 ## Prerequisites
 
 *	**Git**
     * **On Windows**:
-	    * Download the latest Git for Windows installer.
+	    * Download the latest [Git for Windows installer](https://gitforwindows.org/).
         * When you have successfully started the installer, you will see the Git Setup Wizard screen. Follow the Next and Finish prompts to complete the installation.
         * Open a Command Prompt (or Git Bash if during installation you elected not to use Git from the Windows Command Prompt).
         * Run the following commands to configure your Git username and email using the following commands. 
@@ -43,13 +43,17 @@ $ git config --global user.email “email id”
 ```
 
 
-*	**On Linux/Mac**: To install on a Linux or a Mac, follow these instructions.
+*	**On Linux/Mac**: To install on a Linux or a Mac, follow [these](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) instructions.
 
-    *	**Node**: Follow these instructions to download and install Node.js according to your operating system.
+    *	**Node**: Follow [these](https://nodejs.org/en/download/) instructions to download and install Node.js according to your operating system.
 
-    *	**Mongo**: Follow these instructions to download and install Mongo DB according to your operating system and requirement.
+    *	**Mongo**: Follow [these](https://docs.mongodb.com/manual/installation/#mongodb-community-edition) instructions to download and install Mongo DB according to your operating system and requirement.
 
-    *	**Visual Studio**: It is recommended. However, you can use any other editor. Follow these instructions to install Visual Studio.
+    *	**Visual Studio Code**: It is recommended. However, you can use any other editor. Follow [these](https://code.visualstudio.com/download) instructions to install Visual Studio Code.
+
+## Getting Started
+
+* Follow the instructions from [**ChatEliteUi repository**](https://github.com/XoriantOpenSource/ChatEliteUi#execution-on-localhost) repository. 
 
 ##	System Design
 
